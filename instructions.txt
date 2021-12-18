@@ -1,0 +1,24 @@
+$ conda activate PythonData
+
+
+######## CHECK POSTGRES IS RUNNING LOCALLY ON YOUR COMPUTER 
+Open postgres shell in start menu :
+Hit enter for all the selections except password which is "password"
+
+Server [localhost]:
+Database [postgres]:
+Port [5432]:
+Username [postgres]:
+Password for user postgres:
+psql (14.1)
+WARNING: Console code page (437) differs from Windows code page (1252)
+         8-bit characters might not work correctly. See psql reference
+         page "Notes for Windows users" for details.
+Type "help" for help.
+
+postgres=#
+
+
+2b: Open DBVIZ .. CREATE A CONNECTION 
+Create a Database in DBVIZ 
+3. write python file to connect to postgresDB
